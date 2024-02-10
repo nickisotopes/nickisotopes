@@ -1,0 +1,16 @@
+// project available on: nickisotopes.wordpress.com - "Movimento elíptico planetário"
+
+import java.util.Scanner;
+
+public class Nick {
+	public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+       System.out.println("-Let's find the ellipse equation of any planet!")
+       System.out.println("Average radius:");
+       double r = sc.nextDouble();
+       System.out.println("Eccentricity:");
+       double e = sc.nextDouble();
+       System.out.println("The planet ellipse equation is:");
+       System.out.println("x²/"+(r*r)+"+y²/"+ (r*r)*(1-e*e)+" = 1");
+	}
+}
