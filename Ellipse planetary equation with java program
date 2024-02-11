@@ -1,5 +1,5 @@
 // project available on: nickisotopes.wordpress.com - "Movimento elíptico planetário"
-
+// formula:  x²/R² + y²/(1-e²) = 1,  R = average radius, e = eccentricity
 import java.util.Scanner;
 
 public class Nick {
